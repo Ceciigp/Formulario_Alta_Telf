@@ -1,0 +1,336 @@
+:root {
+  --blanco: white;
+  --fondo-blanco: #ffffffa8;
+  --fondo-legend: #891db4d2;
+  --fondo-texto: #dfdfdf;
+  --negro: black;
+  --borde-negro: #282828;
+  --tipoppal: "Open Sans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+p a {
+  display: inline-flex;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img, video {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+iframe {
+  width: 100%;
+  min-height: 400px;
+  display: block;
+}
+
+form, input, select, textarea, button, label, fieldset {
+  font-size: inherit;
+  font-family: inherit;
+  display: block;
+  color: inherit;
+  background-color: transparent;
+}
+
+option {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+table, tr, td, th, thead, tbody, tfoot {
+  border-collapse: collapse;
+}
+
+body {
+  width: 100%;
+  min-height: 200vh;
+  background: linear-gradient(to right, #2f0141, #af08f7);
+  font-family: "Open Sans", sans-serif;
+}
+body h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-shadow: 3px 3px black;
+  text-align: center;
+  margin: 1em 0;
+  color: var(--blanco);
+}
+
+.form {
+  width: 75%;
+  min-height: 70em;
+  background-color: var(--fondo-blanco);
+  margin: 1em auto;
+  border-radius: 1.9em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset {
+  width: 90%;
+  min-height: 12em;
+  border: 1px solid var(--borde-negro);
+  border-radius: 0.6em;
+  margin: 1em auto;
+}
+.form .fieldset .legend {
+  width: 25%;
+  min-height: 2em;
+  margin-left: 1em;
+  padding: 0 0.5em;
+  font-weight: 600;
+  background-color: var(--fondo-legend);
+  color: var(--blanco);
+  border-radius: 0.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .legend.est {
+  width: 40%;
+}
+.form .fieldset .conjunto {
+  min-height: 2em;
+  margin: 0.5em 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .conjunto .label {
+  width: 30%;
+  min-height: 2em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .conjunto .input {
+  width: 85%;
+  background-color: var(--fondo-texto);
+  padding: 0.3em;
+}
+.form .fieldset .conjunto .radius {
+  margin: 0 1em;
+  font-weight: 400;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .conjunto .radius .inputr {
+  margin: 0 1em 0 1em;
+}
+.form .fieldset .conjunto .dbanc {
+  width: 85%;
+  min-height: 2em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .conjunto .dbanc .inputb {
+  width: 70%;
+  background-color: var(--fondo-texto);
+  padding: 0.3em;
+  margin-right: 1em;
+}
+.form .fieldset .conjunto .inputf {
+  background-color: var(--fondo-texto);
+}
+.form .fieldset .caja_select {
+  margin-top: 1.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .caja_select .conjunto2 {
+  margin-left: 1.8em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .caja_select .conjunto2 .select {
+  width: 50%;
+  background-color: var(--fondo-texto);
+  margin: 0 0.5em 0 0.3em;
+}
+.form .fieldset .conjuntoc {
+  min-height: 2em;
+  margin: 0.5em 1em;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .conjuntoc .inputc {
+  margin-right: 1em;
+}
+.form .fieldset .conjuntov {
+  min-height: 2em;
+  margin: 0.5em 1em;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: initial;
+}
+.form .fieldset .conjuntov .label {
+  margin-left: 1em;
+}
+.form .fieldset .conjuntov .inputv {
+  width: 30%;
+}
+.form .botones {
+  width: 100%;
+  margin-left: 5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: initial;
+}
+.form .botones .button-classic {
+  background-color: #54198bef;
+  margin-left: 1em;
+  padding: 0.3em 0.8em;
+  border: 1px solid white;
+  color: var(--blanco);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.form .botones .button-classic:hover {
+  transform: scale(1.1);
+}
+.form .botonvarios {
+  width: 92%;
+  margin: 1em 0 1em 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: initial;
+}
+.form .botonvarios .button {
+  background-color: #28044bef;
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  color: var(--blanco);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.form .botonvarios .button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 790px) {
+  .form .fieldset .legend {
+    width: 50%;
+  }
+
+  .form .fieldset .legend.est {
+    width: 60%;
+  }
+
+  .form .fieldset .conjunto {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: initial;
+    align-content: initial;
+  }
+  .form .fieldset .conjunto .label {
+    width: 40%;
+  }
+
+  .form .fieldset .caja_select {
+    margin: 1.5em 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: initial;
+    align-items: initial;
+    align-content: initial;
+  }
+
+  .form .fieldset .conjunto .dbanc {
+    width: 90%;
+    font-size: 0.9em;
+  }
+  .form .fieldset .conjunto .dbanc .inputb {
+    width: 51%;
+  }
+
+  .form .botonvarios {
+    width: 50%;
+    margin: 1em 0 1em 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: initial;
+    align-items: initial;
+    align-content: initial;
+  }
+
+  .form .botonvarios .button {
+    margin: 0 0 0.5em 0;
+  }
+}
+@media screen and (max-width: 590px) {
+  body h1 {
+    font-size: 1.9em;
+  }
+  body .form {
+    width: 80%;
+  }
+  body .form .fieldset .legend {
+    width: 80%;
+    padding: 0.5em 0.5em;
+  }
+  body .form .fieldset .conjunto .label {
+    width: 70%;
+  }
+  body .form .botones {
+    width: 50%;
+    margin: 1em 0 1em 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: initial;
+    align-items: initial;
+    align-content: initial;
+  }
+  body .form .botones .button-classic {
+    margin: 0 0 0.5em 0;
+  }
+}
