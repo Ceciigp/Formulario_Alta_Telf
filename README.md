@@ -4,14 +4,22 @@
 
 
 ## Realizado con 🛠️
- * -[HTML]
- * -[Scss]
- * -[TypeScript]
-## Programa utilizado
-  Visua Studio Code
+ * [HTML]
+ * [Scss]
+ * [TypeScript]
+ 
+## Programa utilizado ⚙️
+  * Visua Studio Code
+  * Prepros
 
-## Tiempo de programación estimado
-  8 horas
+## Tiempo de programación estimado ⌛
+  - 6-7 horas aprox.
   
-## Autor
-  Cecii García (yo)
+## Autor 🔏
+  * Cecii García
+  * Linkedin: www.linkedin.com/in/cecilia-garcia-perez
+  * GitHub: https://github.com/Ceciigp
+  
+## Agradecimientos 🙌💜
+  * A nuestro profe <a href="https://eduardofierro.pro/" title="Eduardo Fierro" target="_blank">Eduardo Fierro</a>.
+  *  Al proyecto <a href="https://women4it.eu/" title="Women4it" target="_blank">Women4it</a>.
